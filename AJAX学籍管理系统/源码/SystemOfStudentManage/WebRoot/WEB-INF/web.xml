@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <servlet>
+    <servlet-name>StudentFindAllServlet</servlet-name>
+    <servlet-class>cn.xidian.stu.web.servlet.StudentFindAllServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentFindAllServlet</servlet-name>
+    <url-pattern>/studentfindall</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>StudentInsertStuServlet</servlet-name>
+    <servlet-class>cn.xidian.stu.web.servlet.StudentInsertStuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentInsertStuServlet</servlet-name>
+    <url-pattern>/insertStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>StudentDeleteStuServlet</servlet-name>
+    <servlet-class>cn.xidian.stu.web.servlet.StudentDeleteStuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentDeleteStuServlet</servlet-name>
+    <url-pattern>/deleteStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>StudentUpdataStuServlet</servlet-name>
+    <servlet-class>cn.xidian.stu.web.servlet.StudentUpdataStuServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentUpdataStuServlet</servlet-name>
+    <url-pattern>/updataStuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>StudentUpdataStuDealServlet</servlet-name>
+    <servlet-class>cn.xidian.stu.web.servlet.StudentUpdataStuDealServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>StudentUpdataStuDealServlet</servlet-name>
+    <url-pattern>/updataStuDealServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

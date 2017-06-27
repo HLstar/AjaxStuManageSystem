@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="driverClass">com.mysql.jdbc.Driver</property>
+		<property name="jdbcUrl">jdbc:mysql:///ajax</property>
+		<property name="user">root</property>
+		<property name="password">hxn</property>
+	</default-config>
+</c3p0-config>
+<!-- c3p0自动获取链接池，连接数据库 -->
